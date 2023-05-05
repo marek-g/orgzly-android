@@ -3,6 +3,10 @@
 <a title="Crowdin" target="_blank" href="https://crowdin.com/project/orgzly"><img src="https://d322cqt584bo4o.cloudfront.net/orgzly/localized.svg"></a>
 #+END_HTML
 
+* Changes compared to the original version
+
+- enabled repeated reminders (& fix calculation bug)
+
 * Orgzly
 
 Orgzly is an outliner for taking notes and managing to-do lists.

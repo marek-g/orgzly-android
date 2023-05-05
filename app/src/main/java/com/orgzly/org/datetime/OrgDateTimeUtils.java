@@ -94,6 +94,11 @@ public class OrgDateTimeUtils {
 
                 /* Time just after the interval we are interested in. */
                 time = time.withFieldAdded(OrgDateTimeUtils.getDurationFieldType(repeater.getUnit()), addUnits);
+                if (time.isBefore(fromTime)) {
+                    time = time.withFieldAdded(
+                            OrgDateTimeUtils.getDurationFieldType(repeater.getUnit()),
+                            repeater.getValue());
+                }
 
                 System.out.println(
                         "gap: " + gap

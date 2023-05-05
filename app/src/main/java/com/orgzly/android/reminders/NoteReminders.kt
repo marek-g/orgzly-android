@@ -142,7 +142,7 @@ object NoteReminders {
             interval.first,
             interval.second,
             defaultTimeOfDay,
-            false, // Do not use repeater for reminders
+            true,
             warningPeriod,
             1)
 
