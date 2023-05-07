@@ -54,6 +54,12 @@ object RemindersNotifications {
                 builder.setVibrate(VIBRATION_PATTERN)
             }
 
+            // Set notification sticky
+            if (AppPreferences.remindersSticky(context)) {
+                builder.setOngoing(true)
+                builder.setAutoCancel(false)
+            }
+
             // Set notification sound
             if (AppPreferences.remindersSound(context)) {
                 builder.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))

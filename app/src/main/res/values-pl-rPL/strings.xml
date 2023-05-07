@@ -412,6 +412,8 @@
     <string name="pref_title_summary_reminders_for_deadline_times">Wyświetlaj powiadomienia dla notatek z określonym terminem</string>
     <string name="pref_title_reminders_for_event_times">Wydarzenia</string>
     <string name="pref_title_summary_reminders_for_event_times">Wyświetlaj powiadomienia dla notatek z określonym czasem wydarzenia</string>
+    <string name="pref_title_reminders_remindersSticky">Przypięte powiadomienia</string>
+    <string name="pref_title_summary_remindersSticky">Powiadomienia nie mogą być odrzucane przez przeciągnięcie palcem</string>
     <string name="pref_title_reminders_sound">Dźwięk</string>
     <string name="pref_title_reminders_vibrate">Wibracje</string>
     <string name="pref_title_reminders_led">Dioda</string>

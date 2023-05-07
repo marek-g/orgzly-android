@@ -24,6 +24,12 @@
         android:defaultValue="@bool/pref_default_use_reminders_for_event_times" />
 
     <SwitchPreference
+        android:key="@string/pref_key_reminders_sticky"
+        android:title="@string/pref_title_reminders_remindersSticky"
+        android:summary="@string/pref_title_summary_remindersSticky"
+        android:defaultValue="@bool/pref_default_reminders_sticky" />
+
+    <SwitchPreference
         android:key="@string/pref_key_reminders_use_alarm_clock_for_tod_reminders"
         android:title="@string/use_alarm_clock_for_tod_reminders"
         android:summary="@string/use_alarm_clock_for_tod_reminders_summary"

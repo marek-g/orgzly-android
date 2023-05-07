@@ -6,6 +6,7 @@
 * Changes compared to the original version
 
 - enabled repeated reminders (& fix calculation bug)
+- added setting for making reminder notifications sticky (default)
 
 * Orgzly
 
