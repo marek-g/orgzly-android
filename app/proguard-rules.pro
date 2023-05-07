@@ -52,3 +52,21 @@
 -dontwarn org.slf4j.**
 
 -keepclassmembers enum com.orgzly.android.ui.refile.RefileLocation$Type { *; }
+
+# Marek: to be verified after migration to gradle 8.0.1
+-dontwarn com.google.errorprone.annotations.Immutable
+-dontwarn javax.management.MBeanException
+-dontwarn javax.management.ReflectionException
+-dontwarn javax.security.auth.login.CredentialException
+-dontwarn javax.security.auth.login.FailedLoginException
+-dontwarn org.bouncycastle.crypto.prng.RandomGenerator
+-dontwarn org.bouncycastle.crypto.prng.VMPCRandomGenerator
+-dontwarn org.bouncycastle.jsse.BCSSLParameters
+-dontwarn org.bouncycastle.jsse.BCSSLSocket
+-dontwarn org.bouncycastle.jsse.provider.BouncyCastleJsseProvider
+-dontwarn org.conscrypt.Conscrypt$Version
+-dontwarn org.conscrypt.Conscrypt
+-dontwarn org.conscrypt.ConscryptHostnameVerifier
+-dontwarn org.openjsse.javax.net.ssl.SSLParameters
+-dontwarn org.openjsse.javax.net.ssl.SSLSocket
+-dontwarn org.openjsse.net.ssl.OpenJSSE
