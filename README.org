@@ -7,6 +7,7 @@
 
 - enabled repeated reminders (& fix calculation bug)
 - added setting for making reminder notifications sticky (default)
+- git sync multiple improvements
 
 * Orgzly
 

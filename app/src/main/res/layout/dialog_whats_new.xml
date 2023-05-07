@@ -32,6 +32,10 @@
             style="@style/WhatsNewChange"
             app:text="Added setting for making reminder notifications sticky (default)" />
 
+        <com.orgzly.android.ui.views.WhatsNewChange
+            style="@style/WhatsNewChange"
+            app:text="Git sync multiple improvements" />
+
         <TextView
             style="@style/WhatsNewVersion"
             android:text="v1.8.10"

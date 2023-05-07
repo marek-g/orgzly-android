@@ -572,7 +572,7 @@
     <!-- Developer options -->
 
     <string name="pref_key_git_is_enabled" translatable="false">pref_key_git_is_enabled</string>
-    <bool name="pref_default_git_is_enabled" translatable="false">false</bool>
+    <bool name="pref_default_git_is_enabled" translatable="false">true</bool>
 
     <string name="pref_key_log_major_events" translatable="false">pref_key_log_major_events</string>
     <bool name="pref_default_log_major_events" translatable="false">false</bool>
