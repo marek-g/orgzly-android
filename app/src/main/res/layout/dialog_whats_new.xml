@@ -19,6 +19,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+        <TextView
+            style="@style/WhatsNewVersion"
+            android:text="Marek"
+            tools:ignore="HardcodedText" />
+
+        <com.orgzly.android.ui.views.WhatsNewChange
+            style="@style/WhatsNewChange"
+            app:text="Enabled repeated reminders (&amp; fix calculation bug)" />
+
+        <com.orgzly.android.ui.views.WhatsNewChange
+            style="@style/WhatsNewChange"
+            app:text="Added setting for making reminder notifications sticky (default)" />
 
         <TextView
             style="@style/WhatsNewVersion"
